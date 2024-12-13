@@ -1,0 +1,19 @@
+
+ .card-img-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5); 
+    padding: 15px; 
+}
+
+@media screen and (max-width:992px) {
+    .data-card{
+        height: 250px;
+    }
+    .card-img{
+        background-position: top;
+    }
+    
+}

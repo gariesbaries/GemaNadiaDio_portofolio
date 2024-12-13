@@ -1,0 +1,20 @@
+/* Import Styles */
+@import url('./navbar.css');
+@import url('./hero.css');
+@import url('./content.css');
+@import url('./aboutUs.css');
+@import url('./services.css');
+@import url('./footer.css');
+
+@font-face {
+    font-family: 'jakarta'; 
+    src: url('../fonts/PlusJakartaSans-VariableFont_wght.ttf') format('opentype'); 
+  }
+
+  body{
+    font-family: 'jakarta';
+  }
+
+.brand-font {
+  font-family:monument;
+}

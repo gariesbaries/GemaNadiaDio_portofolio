@@ -1,0 +1,29 @@
+
+.navbar{
+    height:15vh;
+}
+.navbar-toggler{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 44px;
+    width: 44px;
+    border: none;
+}
+.navbar-brand{
+    font-family:monument;
+}
+
+@media screen and (max-width: 768px) {
+
+    .navbar{
+        height:70px;
+        
+    }
+    .navbar-toggler{
+        height: 44px;
+        width: 44px;
+        
+    }
+  }
+  

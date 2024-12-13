@@ -1,0 +1,134 @@
+@font-face {
+    font-family: 'jakarta'; 
+    src: url('../fonts/PlusJakartaSans-VariableFont_wght.ttf') format('opentype'); 
+}
+
+* {
+    font-family: 'jakarta';
+}
+
+.brand-font {
+    font-family:monument;
+} 
+
+.shop-banner {
+    margin: 12vh auto;
+    justify-items: center;
+    display: block;
+    width: 80%;
+}
+
+.shop-banner h1 {
+    font-size: 35px;
+    font-weight: bold;
+}
+    
+.shop-banner p {
+    font-size: 20px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.search-sort {
+    width: 80%; 
+    margin: 20px auto; 
+}
+  
+.search-toggles {
+    flex: 1; 
+}
+  
+.search-toggles .form-control {
+    padding-right: 40px; 
+}
+  
+.search-icon {
+    position: absolute;
+    top: 50%;
+    right: 10px; 
+    transform: translateY(-50%);
+    pointer-events: none;
+    color: #aaa;
+}
+  
+form > p {
+    margin: 0 20px; 
+}
+  
+.nav-item.dropdown {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    height: 35px;
+    padding: 0 10px;
+    text-align: center;
+    border: 1px solid #aaa;
+    min-width: 120px;
+}
+  
+.nav-item .dropdown a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 0 15px;
+}
+  
+.nav-item .dropdown a span,
+.nav-item .dropdown a i {
+    display: block;
+}
+  
+  
+.category-container {
+    width: 80%;
+    margin: 20px auto;
+    overflow: hidden; 
+    position: relative;
+}
+  
+.category {
+    display: flex;
+    overflow-x: auto; 
+    scroll-behavior: smooth; 
+    white-space: nowrap; 
+    padding-bottom: 10px;
+}
+  
+.category .btn {
+    height: 50px;
+    background-color: #dddddd;
+    margin: 0 10px 5px 0; 
+    padding: 0 30px;
+    flex-shrink: 0; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.scroll-indicator {
+    height: 5px;
+    width: 0%; 
+    background-color: transparent; 
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: width 0.3s ease;
+    border-radius: 10px; 
+}
+
+@media (max-width: 576px) {
+    .col-sm-6 {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+}
+
+.favorite-btn .fa-heart {
+    transition: color 0.3s ease;
+}
+
+.favorite-btn .clicked .fa-heart {
+    color: red;
+}

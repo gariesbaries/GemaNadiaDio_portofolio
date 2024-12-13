@@ -1,4 +1,4 @@
-.judul{
+/* .judul{
     margin-top: 96px;
     margin-bottom:24px;
     font-size: 1.5rem;
@@ -6,7 +6,7 @@
 }
 .swiper{
     width: 95%;
-}
+} */
 
 @media screen and (max-width:760px) {
     .swiper-button-prev{
@@ -21,9 +21,7 @@
 .gaya {
     background-color: #ECECEC;
 }
-.container {
-    padding: 0; 
-}
+
 img {
     object-fit: cover;
     width: 100%;

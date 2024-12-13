@@ -62,7 +62,7 @@ background-color: #555;
   }
   
     .banner h1 {
-    font-size: 3.4rem;
+    font-size: 3rem;
 
     }
     .banner p {
@@ -71,6 +71,7 @@ background-color: #555;
 
 
 }
+
 @media screen and (min-width:1200px) {
   
   
